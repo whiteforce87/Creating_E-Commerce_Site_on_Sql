@@ -1,4 +1,4 @@
-create table Campaign (6,'A010','sale_on_table','15-NOV-21','01-DEC-21' NUMBER (10),campaign_code VARCHAR2(15) NOT NULL, campaign_name VARCHAR2(15) NOT NULL, start_date DATE NOT NULL, 
+create table Campaign (campaign_id NUMBER (10),campaign_code VARCHAR2(15) NOT NULL, campaign_name VARCHAR2(15) NOT NULL, start_date DATE NOT NULL, 
 finish_date DATE NOT NULL, constraint ca_cam_pk PRIMARY KEY (campaign_id));
 
 create table Address (address_id NUMBER (10), city VARCHAR2(20) NOT NULL, district VARCHAR2(20) NOT NULL, address VARCHAR2(45) NOT NULL, zip_code NUMBER(10), 
